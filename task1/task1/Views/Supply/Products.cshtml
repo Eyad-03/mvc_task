@@ -1,0 +1,16 @@
+﻿
+<p>@ViewData["Title"]</p>
+<p>@ViewData["ManagerName"]</p>
+<p>@ViewData["count"]</p>
+
+@{
+    var products = ViewData["Products"] as string[] ?? Array.Empty<string>();
+}
+
+@foreach (var item in products)
+{
+    <div>
+        <p>@item</p>
+
+    </div>
+}

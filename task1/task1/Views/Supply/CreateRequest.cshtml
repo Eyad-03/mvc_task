@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Create Request";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Create Supply Request</h4>
+        </div>
+        <div class="card-body">
+            <form method="post" asp-controller="Supply" asp-action="SubmitRequest">
+
+                <div class="mb-3">
+                    <label for="EmployeeName" class="form-label">Employee Name</label>
+                    <input type="text" id="EmployeeName" name="EmployeeName" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="ProductName" class="form-label">Product Name</label>
+                    <select id="ProductName" name="ProductName" class="form-select">
+                        <option>Water</option>
+                        <option>Orange Juice</option>
+                        <option>Coffee</option>
+                        <option>Sandwich</option>
+                        <option>Chocolate</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Quantity" class="form-label">Quantity</label>
+                    <input type="number" id="Quantity" name="Quantity" class="form-control" min="1" required />
+                </div>
+
+                <div class="mb-3">
+                    <label for="RequiredDate" class="form-label">Required Date</label>
+                    <input type="date" id="RequiredDate" name="RequiredDate" class="form-control" />
+                </div>
+
+                <button type="submit" class="btn btn-success">Submit Request</button>
+            </form>
+        </div>
+    </div>
+</div>

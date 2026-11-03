@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+
+<div class="container mt-4">
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <h2>About University Cafeteria</h2>
+    <p>This system manages supply requests, products and suppliers for the university cafeteria.</p>
+</div>
