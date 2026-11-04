@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "Create Supply Request";
+}
+
+<h2>Create Supply Request</h2>
+
+<form asp-controller="SupplyRequest"
+      asp-action="AddItem"
+      method="post">
+
+    <div>
+        <label>Product Name</label>
+        <input type="text" name="ProductName" required />
+    </div>
+
+    <div>
+        <label>Category</label>
+        <select name="Category" required>
+            <option value="Food">Food</option>
+            <option value="Drinks">Drinks</option>
+            <option value="Packaging">Packaging</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Quantity</label>
+        <input type="number" name="Quantity" min="1" required />
+    </div>
+
+    <div>
+        <label>Unit Price</label>
+        <input type="number" name="UnitPrice" min="0.01"
+               step="0.01" required />
+    </div>
+
+    <div>
+        <label>Priority</label>
+
+        <select name="Priority">
+
+            <option value="Normal"
+                    selected="@(ViewBag.PreferredPriority == "Normal")">
+                Normal
+            </option>
+
+            <option value="Urgent"
+                    selected="@(ViewBag.PreferredPriority == "Urgent")">
+                Urgent
+            </option>
+
+            <option value="Emergency"
+                    selected="@(ViewBag.PreferredPriority == "Emergency")">
+                Emergency
+            </option>
+
+        </select>
+    </div>
+
+    <button type="submit">Add Product</button>
+
+</form>
+
+
+
+<h3>Save Your Preferred Priority</h3>
+
+<form asp-controller="SupplyRequest"
+      asp-action="SavePreference"
+      method="post">
+
+    <select name="Priority">
+
+        <option value="Normal">Normal</option>
+        <option value="Urgent">Urgent</option>
+        <option value="Emergency">Emergency</option>
+
+    </select>
+
+    <button type="submit">Save Preference</button>
+
+</form>
+
+
+
+
+@if (ViewBag.PreferredPriority != null)
+{
+    <p>
+        Your preferred request priority is
+        <strong>@ViewBag.PreferredPriority</strong>.
+    </p>
+}

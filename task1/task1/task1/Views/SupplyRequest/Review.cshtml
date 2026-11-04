@@ -1,0 +1,45 @@
+﻿@model task1.Models.SupplyRequestViewModel
+
+<h2>Supply Request Review</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Total Cost</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Quantity</td>
+                <td>@item.UnitPrice JD</td>
+                <td>@item.TotalCost JD</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+
+<p>Subtotal: @Model.Subtotal JD</p>
+
+<p>Preparation Fee: @Model.PreparationFee JD</p>
+
+<p>Discount: @Model.Discount JD</p>
+
+<h3>Final Total: @Model.FinalTotal JD</h3>
+
+
+<form asp-controller="SupplyRequest"
+      asp-action="ConfirmRequest"
+      method="post">
+
+    <button type="submit">Confirm Request</button>
+
+</form>
