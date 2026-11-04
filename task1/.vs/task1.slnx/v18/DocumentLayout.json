@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|c:\\users\\user\\desktop\\mvc_task\\task1\\task1\\views\\supply\\suppliers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|solutionrelative:task1\\views\\supply\\suppliers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|c:\\users\\user\\desktop\\mvc_task\\task1\\task1\\views\\supply\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|solutionrelative:task1\\views\\supply\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|c:\\users\\user\\desktop\\mvc_task\\task1\\task1\\views\\supply\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|solutionrelative:task1\\views\\supply\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|c:\\users\\user\\desktop\\mvc_task\\task1\\task1\\views\\supply\\submitrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|solutionrelative:task1\\views\\supply\\submitrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|c:\\users\\user\\desktop\\mvc_task\\task1\\task1\\views\\supply\\createrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|solutionrelative:task1\\views\\supply\\createrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,22 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|c:\\users\\user\\desktop\\mvc_task\\task1\\task1\\views\\supply\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|solutionrelative:task1\\views\\supply\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|c:\\users\\user\\desktop\\mvc_task\\task1\\task1\\views\\supply\\submitrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|solutionrelative:task1\\views\\supply\\submitrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|c:\\users\\user\\desktop\\mvc_task\\task1\\task1\\views\\supply\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|solutionrelative:task1\\views\\supply\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|c:\\users\\user\\desktop\\mvc_task\\task1\\task1\\views\\supply\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|solutionrelative:task1\\views\\supply\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|c:\\users\\user\\desktop\\mvc_task\\task1\\task1\\views\\supply\\suppliers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|solutionrelative:task1\\views\\supply\\suppliers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|task1\\task1.csproj|c:\\users\\user\\desktop\\mvc_task\\task1\\task1\\views\\cafeteria\\supplystatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -90,50 +90,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SupplyController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Controllers\\SupplyController.cs",
-              "RelativeDocumentMoniker": "task1\\Controllers\\SupplyController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Controllers\\SupplyController.cs",
-              "RelativeToolTip": "task1\\Controllers\\SupplyController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwDEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T17:45:01.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Views\\Supply\\Index.cshtml",
               "RelativeDocumentMoniker": "task1\\Views\\Supply\\Index.cshtml",
               "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Views\\Supply\\Index.cshtml",
               "RelativeToolTip": "task1\\Views\\Supply\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-03T17:47:00.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:47:00.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Products.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Views\\Supply\\Products.cshtml",
               "RelativeDocumentMoniker": "task1\\Views\\Supply\\Products.cshtml",
               "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Views\\Supply\\Products.cshtml",
               "RelativeToolTip": "task1\\Views\\Supply\\Products.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-03T17:47:13.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:47:13.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "_MainLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Views\\Shared\\_MainLayout.cshtml",
               "RelativeDocumentMoniker": "task1\\Views\\Shared\\_MainLayout.cshtml",
@@ -141,12 +126,11 @@
               "RelativeToolTip": "task1\\Views\\Shared\\_MainLayout.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAiwCAAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-02T11:55:16.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:55:16.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CreateRequest.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Views\\Supply\\CreateRequest.cshtml",
               "RelativeDocumentMoniker": "task1\\Views\\Supply\\CreateRequest.cshtml",
@@ -154,12 +138,11 @@
               "RelativeToolTip": "task1\\Views\\Supply\\CreateRequest.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-03T17:47:36.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:47:36.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "SubmitRequest.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Views\\Supply\\SubmitRequest.cshtml",
               "RelativeDocumentMoniker": "task1\\Views\\Supply\\SubmitRequest.cshtml",
@@ -167,12 +150,11 @@
               "RelativeToolTip": "task1\\Views\\Supply\\SubmitRequest.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-03T17:47:46.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:47:46.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Views\\Supply\\About.cshtml",
               "RelativeDocumentMoniker": "task1\\Views\\Supply\\About.cshtml",
@@ -180,21 +162,32 @@
               "RelativeToolTip": "task1\\Views\\Supply\\About.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-03T17:47:55.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T17:47:55.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Suppliers.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Views\\Supply\\Suppliers.cshtml",
               "RelativeDocumentMoniker": "task1\\Views\\Supply\\Suppliers.cshtml",
               "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Views\\Supply\\Suppliers.cshtml",
               "RelativeToolTip": "task1\\Views\\Supply\\Suppliers.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-11-03T17:47:25.848Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SupplyController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Controllers\\SupplyController.cs",
+              "RelativeDocumentMoniker": "task1\\Controllers\\SupplyController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\task1\\task1\\Controllers\\SupplyController.cs",
+              "RelativeToolTip": "task1\\Controllers\\SupplyController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T17:45:01.507Z"
             },
             {
               "$type": "Document",
@@ -206,8 +199,7 @@
               "RelativeToolTip": "task1\\Views\\Cafeteria\\SupplyStatus.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-01T11:19:14.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T11:19:14.399Z"
             },
             {
               "$type": "Document",
@@ -219,8 +211,7 @@
               "RelativeToolTip": "task1\\Views\\Cafeteria\\Suppliers.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-01T11:18:53.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T11:18:53.287Z"
             },
             {
               "$type": "Document",
@@ -232,8 +223,7 @@
               "RelativeToolTip": "task1\\Views\\Cafeteria\\Products.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAgwCYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-01T11:18:28.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T11:18:28.42Z"
             },
             {
               "$type": "Document",
@@ -281,8 +271,7 @@
               "RelativeToolTip": "task1\\Controllers\\CafeteriaController.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAkwBkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T11:11:51.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-01T11:11:51.722Z"
             },
             {
               "$type": "Document",
