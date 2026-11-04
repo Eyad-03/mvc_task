@@ -1,0 +1,78 @@
+@model task1.Models.SupplyRequest
+@{
+    ViewData["Title"] = "Review Draft";
+    bool isEmpty = ViewBag.IsEmpty;
+}
+
+<h2 class="mb-4">Review Supply Request</h2>
+
+@if (isEmpty)
+{
+    <div class="alert alert-warning">
+        Your draft supply request is empty. You cannot confirm an empty request.
+    </div>
+    <a href="@Url.Action("Index", "SupplyRequest")" class="btn btn-primary">Add Products</a>
+}
+else
+{
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <table class="table align-middle">
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Category</th>
+                        <th>Priority</th>
+                        <th class="text-end">Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Items)
+                    {
+                        <tr>
+                            <td>@item.ProductName (@item.Quantity × @item.UnitPrice.ToString("0.###"))</td>
+                            <td>@item.Category</td>
+                            <td>@item.Priority</td>
+                            <td class="text-end">@item.TotalCost.ToString("0.00") JD</td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3">Subtotal</th>
+                        <th class="text-end">@Model.Subtotal.ToString("0.00") JD</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Preparation Fee (@Model.Priority)</td>
+                        <td class="text-end">@Model.PreparationFee.ToString("0.00") JD</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Discount (@Model.DiscountPercent.ToString("0")%)</td>
+                        <td class="text-end">- @Model.Discount.ToString("0.00") JD</td>
+                    </tr>
+                    <tr class="table-success">
+                        <th colspan="3">Final Total</th>
+                        <th class="text-end">@Model.FinalTotal.ToString("0.00") JD</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <p class="text-muted small">
+                The request priority is the highest priority among its products
+                (Normal = 2 JD, Urgent = 5 JD, Emergency = 10 JD).
+                Discount: 15% if subtotal &gt; 200 JD, 10% if subtotal &gt; 100 JD.
+            </p>
+        </div>
+    </div>
+
+    <div class="d-flex gap-2 mt-3">
+        <a href="@Url.Action("Index", "SupplyRequest")" class="btn btn-outline-primary">Add More Products</a>
+        <form method="post" action="@Url.Action("ConfirmRequest", "SupplyRequest")">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-success">Confirm Request</button>
+        </form>
+        <form method="post" action="@Url.Action("ClearDraft", "SupplyRequest")">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-outline-danger">Clear Draft</button>
+        </form>
+    </div>
+}
