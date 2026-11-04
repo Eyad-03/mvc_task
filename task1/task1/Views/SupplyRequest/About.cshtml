@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "About";
+}
+
+<h2 class="mb-4">About</h2>
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">Application Name</dt>
+            <dd class="col-sm-9">@ViewBag.ApplicationName</dd>
+
+            <dt class="col-sm-3">Feature Name</dt>
+            <dd class="col-sm-9">@ViewBag.FeatureName</dd>
+
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9">@ViewBag.Description</dd>
+        </dl>
+    </div>
+</div>
