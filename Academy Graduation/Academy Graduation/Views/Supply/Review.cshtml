@@ -1,0 +1,32 @@
+﻿@model List<Academy_Graduation.Models.ReviewItem>
+
+<h2>Review Request</h2>
+
+<table class="table">
+    <tr>
+        <th>Category</th>
+        <th>Supplier</th>
+        <th>Offer</th>
+        <th>Quantity</th>
+        <th>Unit Price</th>
+        <th>Total Price</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Category</td>
+            <td>@item.Supplier</td>
+            <td>@item.Offer</td>
+            <td>@item.Quantity</td>
+            <td>@item.UnitPrice JD</td>
+            <td>@item.Total JD</td>
+        </tr>
+    }
+</table>
+
+<p>Total Price: @ViewBag.TotalPrice JD</p>
+<p>Discount Percentage: @ViewBag.DiscountPercent %</p>
+<p>Discount Amount: @ViewBag.DiscountAmount JD</p>
+<h4>Final Total: @ViewBag.FinalTotal JD</h4>
+
+<a href="@Url.Action("Create", "Supply")">Back to Create Request</a>

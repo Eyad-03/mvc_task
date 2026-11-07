@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Migrations\\20261107110316_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:codefirst\\Migrations\\20261107110316_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|c:\\users\\user\\desktop\\mvc_task\\codefirst\\codefirst\\codefirst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|solutionrelative:codefirst\\codefirst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|c:\\users\\user\\desktop\\mvc_task\\codefirst\\codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|solutionrelative:codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|c:\\users\\user\\desktop\\mvc_task\\codefirst\\codefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|solutionrelative:codefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|c:\\users\\user\\desktop\\mvc_task\\codefirst\\codefirst\\data\\cafeteriadbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|solutionrelative:codefirst\\data\\cafeteriadbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|c:\\users\\user\\desktop\\mvc_task\\codefirst\\codefirst\\models\\purchaseorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|solutionrelative:codefirst\\models\\purchaseorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|c:\\users\\user\\desktop\\mvc_task\\codefirst\\codefirst\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|solutionrelative:codefirst\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|c:\\users\\user\\desktop\\mvc_task\\codefirst\\codefirst\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|solutionrelative:codefirst\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|c:\\users\\user\\desktop\\mvc_task\\codefirst\\codefirst\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|solutionrelative:codefirst\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|c:\\users\\user\\desktop\\mvc_task\\codefirst\\codefirst\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|solutionrelative:codefirst\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|c:\\users\\user\\desktop\\mvc_task\\codefirst\\codefirst\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD208FE-175F-4039-B5A4-A5BF6F5D2A66}|codefirst\\codefirst.csproj|solutionrelative:codefirst\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20261107110316_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Migrations\\20261107110316_InitialCreate.cs",
+              "RelativeDocumentMoniker": "codefirst\\Migrations\\20261107110316_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Migrations\\20261107110316_InitialCreate.cs",
+              "RelativeToolTip": "codefirst\\Migrations\\20261107110316_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T11:03:16.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "codefirst",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\codefirst.csproj",
+              "RelativeDocumentMoniker": "codefirst\\codefirst.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\codefirst.csproj",
+              "RelativeToolTip": "codefirst\\codefirst.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-07T11:02:58.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\appsettings.json",
+              "RelativeDocumentMoniker": "codefirst\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\appsettings.json",
+              "RelativeToolTip": "codefirst\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-07T11:00:38.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PurchaseOrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Models\\PurchaseOrderItem.cs",
+              "RelativeDocumentMoniker": "codefirst\\Models\\PurchaseOrderItem.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Models\\PurchaseOrderItem.cs",
+              "RelativeToolTip": "codefirst\\Models\\PurchaseOrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T10:40:25.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PurchaseOrder.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Models\\PurchaseOrder.cs",
+              "RelativeDocumentMoniker": "codefirst\\Models\\PurchaseOrder.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Models\\PurchaseOrder.cs",
+              "RelativeToolTip": "codefirst\\Models\\PurchaseOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T10:40:16.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "codefirst\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Models\\Product.cs",
+              "RelativeToolTip": "codefirst\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T10:40:08.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CafeteriaDbContext .cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Data\\CafeteriaDbContext .cs",
+              "RelativeDocumentMoniker": "codefirst\\Data\\CafeteriaDbContext .cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Data\\CafeteriaDbContext .cs",
+              "RelativeToolTip": "codefirst\\Data\\CafeteriaDbContext .cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T10:39:15.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "codefirst\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Models\\Category.cs",
+              "RelativeToolTip": "codefirst\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T10:38:49.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Program.cs",
+              "RelativeDocumentMoniker": "codefirst\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Program.cs",
+              "RelativeToolTip": "codefirst\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T10:36:28.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "codefirst\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "codefirst\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T10:39:47.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "codefirst\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\codefirst\\codefirst\\Models\\Supplier.cs",
+              "RelativeToolTip": "codefirst\\Models\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T10:38:38.206Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

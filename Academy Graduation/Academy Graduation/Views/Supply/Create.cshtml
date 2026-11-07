@@ -1,0 +1,49 @@
+﻿@model List<Academy_Graduation.Models.Category>
+
+
+<h2>Create Supply Request</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<form asp-action="Create" method="post">
+
+    @foreach(var cat in Model)
+    {
+            
+     <h4>@cat.Name</h4>
+
+    <table>
+       <tr>
+
+         <th>Select</th>
+         <th>Supplier</th>
+         <th>Offer</th>
+         <th>Quantity</th>
+         <th>Unit Price</th>
+
+       </tr>
+
+       @foreach(var sup in cat.Suppliers)
+        {
+                    
+        <tr>
+           <td><input type="radio" name="cat@(cat.Id)" value="@sup.Offer!.Id" /></td>
+           <td>@sup.Name</td>
+           <td>@sup.Offer.Name</td>
+           <td>@sup.Offer.Quantity</td>
+           <td>@sup.Offer.UnitPrice JD</td>
+       </tr>
+
+         }
+
+        
+    </table>
+
+     }
+
+    <button type="submit" class="btn btn-primary">Review Request</button>
+
+</form>
