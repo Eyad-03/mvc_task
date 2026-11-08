@@ -1,0 +1,33 @@
+﻿@model List<Product>
+
+<h1>Products</h1>
+
+<a href="@Url.Action("Create", "Product")">Create New Product</a>
+
+<table>
+
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Category</th>
+            <th>Supplier</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.Quantity</td>
+                <td>@product.Category?.Name</td>
+                <td>@product.Supplier?.Name</td>
+            </tr>
+        }
+    </tbody>
+
+</table>

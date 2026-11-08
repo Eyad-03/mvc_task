@@ -1,0 +1,24 @@
+﻿@model test13.Models.Product
+
+@{
+    ViewBag.Title = "Create Product";
+}
+
+<h2>Create Product</h2>
+
+@Html.BeginForm("Create", "Products", FormMethod.Post)
+{
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Price)
+        @Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
+    </div>
+
+    <input type="submit" value="Save" class="btn btn-success" />
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
+}

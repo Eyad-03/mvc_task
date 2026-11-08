@@ -1,0 +1,251 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\test13.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\test13.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|c:\\users\\user\\desktop\\mvc_task\\test13\\test13\\migrations\\20261107171403_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB855CF-0984-7E19-5D3F-308580C426EA}|test13\\test13.csproj|solutionrelative:test13\\migrations\\20261107171403_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "test13\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "test13\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T17:14:22.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "test13\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "test13\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T17:02:08.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "test13\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Models\\Product.cs",
+              "RelativeToolTip": "test13\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T15:56:47.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "test13\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "test13\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T15:57:43.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "test13\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "test13\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T15:59:45.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Program.cs",
+              "RelativeDocumentMoniker": "test13\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Program.cs",
+              "RelativeToolTip": "test13\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T16:06:14.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "test13\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "test13\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T17:01:15.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "test13\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "test13\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T17:16:58.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "test13\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "test13\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T17:54:40.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "test13\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "test13\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T17:54:41.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "test13\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "test13\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T17:51:49.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\appsettings.json",
+              "RelativeDocumentMoniker": "test13\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\appsettings.json",
+              "RelativeToolTip": "test13\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-07T17:09:31.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "test13.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\test13.csproj",
+              "RelativeDocumentMoniker": "test13\\test13.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\test13.csproj",
+              "RelativeToolTip": "test13\\test13.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-07T17:13:40.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20261107171403_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Migrations\\20261107171403_InitialCreate.cs",
+              "RelativeDocumentMoniker": "test13\\Migrations\\20261107171403_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\mvc_task\\test13\\test13\\Migrations\\20261107171403_InitialCreate.cs",
+              "RelativeToolTip": "test13\\Migrations\\20261107171403_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T17:14:03.468Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

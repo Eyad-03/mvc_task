@@ -1,0 +1,40 @@
+﻿@model Product
+
+@{
+    ViewBag.Title = "Create Product";
+}
+
+<h2>Create Product</h2>
+
+@using (Html.BeginForm("Create", "Product", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Price)
+        @Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Quantity)
+        @Html.TextBoxFor(m => m.Quantity, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.CategoryId, "Category")
+        @Html.DropDownListFor(m => m.CategoryId, (SelectList)ViewBag.Categories, "-- Select Category --", new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.SupplierId, "Supplier")
+        @Html.DropDownListFor(m => m.SupplierId, (SelectList)ViewBag.Suppliers, "-- Select Supplier --", new { @class = "form-control" })
+    </div>
+
+    <input type="submit" value="Save" class="btn btn-success" />
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
+}
