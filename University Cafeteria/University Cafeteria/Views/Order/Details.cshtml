@@ -1,0 +1,13 @@
+@model Order
+
+<h2>Order Details</h2>
+
+<p><strong>Id:</strong> @Model.Id</p>
+<p><strong>Customer Name:</strong> @Model.CustomerName</p>
+<p><strong>Order Date:</strong> @Model.OrderDate.ToString("yyyy-MM-dd HH:mm")</p>
+<p><strong>Total Price:</strong> @Model.TotalPrice</p>
+<p><strong>Status:</strong> @Model.Status</p>
+<p><strong>Employee:</strong> @Model.Employee?.FullName</p>
+
+<a asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+<a asp-action="Index">Back to List</a>

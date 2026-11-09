@@ -1,0 +1,42 @@
+@model Employee
+
+<h2>Edit Employee</h2>
+
+<form asp-action="Edit" method="post">
+
+    <input type="hidden" asp-for="Id" />
+
+    <div>
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" />
+    </div>
+
+    <div>
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" />
+    </div>
+
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+    </div>
+
+    <div>
+        <label asp-for="Position"></label>
+        <input asp-for="Position" />
+    </div>
+
+    <div>
+        <label asp-for="Salary"></label>
+        <input asp-for="Salary" />
+    </div>
+
+    <div>
+        <label asp-for="HireDate"></label>
+        <input asp-for="HireDate" type="date" asp-format="{0:yyyy-MM-dd}" />
+    </div>
+
+    <button type="submit">Save</button>
+    <a asp-action="Index">Back to List</a>
+
+</form>

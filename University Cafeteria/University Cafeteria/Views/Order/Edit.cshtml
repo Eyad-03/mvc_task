@@ -1,0 +1,37 @@
+@model Order
+
+<h2>Edit Order</h2>
+
+<form asp-action="Edit" method="post">
+
+    <input type="hidden" asp-for="Id" />
+
+    <div>
+        <label asp-for="CustomerName"></label>
+        <input asp-for="CustomerName" />
+    </div>
+
+    <div>
+        <label asp-for="OrderDate"></label>
+        <input asp-for="OrderDate" type="datetime-local" asp-format="{0:yyyy-MM-ddTHH:mm}" />
+    </div>
+
+    <div>
+        <label asp-for="TotalPrice"></label>
+        <input asp-for="TotalPrice" />
+    </div>
+
+    <div>
+        <label asp-for="Status"></label>
+        <input asp-for="Status" />
+    </div>
+
+    <div>
+        <label asp-for="EmployeeId">Employee</label>
+        <select asp-for="EmployeeId" asp-items="(SelectList)ViewBag.Employees"></select>
+    </div>
+
+    <button type="submit">Save</button>
+    <a asp-action="Index">Back to List</a>
+
+</form>

@@ -1,40 +1,35 @@
-﻿@model Product
-
-@{
-    ViewBag.Title = "Create Product";
-}
+@model Product
 
 <h2>Create Product</h2>
 
-@using (Html.BeginForm("Create", "Product", FormMethod.Post))
-{
-    @Html.AntiForgeryToken()
+<form asp-action="Create" method="post">
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.Name)
-        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
     </div>
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.Price)
-        @Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
+    <div>
+        <label asp-for="Price"></label>
+        <input asp-for="Price" />
     </div>
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.Quantity)
-        @Html.TextBoxFor(m => m.Quantity, new { @class = "form-control" })
+    <div>
+        <label asp-for="Quantity"></label>
+        <input asp-for="Quantity" />
     </div>
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.CategoryId, "Category")
-        @Html.DropDownListFor(m => m.CategoryId, (SelectList)ViewBag.Categories, "-- Select Category --", new { @class = "form-control" })
+    <div>
+        <label asp-for="CategoryId">Category</label>
+        <select asp-for="CategoryId" asp-items="(SelectList)ViewBag.Categories"></select>
     </div>
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.SupplierId, "Supplier")
-        @Html.DropDownListFor(m => m.SupplierId, (SelectList)ViewBag.Suppliers, "-- Select Supplier --", new { @class = "form-control" })
+    <div>
+        <label asp-for="SupplierId">Supplier</label>
+        <select asp-for="SupplierId" asp-items="(SelectList)ViewBag.Suppliers"></select>
     </div>
 
-    <input type="submit" value="Save" class="btn btn-success" />
-    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
-}
+    <button type="submit">Save</button>
+    <a asp-action="Index">Back to List</a>
+
+</form>

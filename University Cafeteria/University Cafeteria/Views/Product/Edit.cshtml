@@ -1,0 +1,37 @@
+@model Product
+
+<h2>Edit Product</h2>
+
+<form asp-action="Edit" method="post">
+
+    <input type="hidden" asp-for="Id" />
+
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+    </div>
+
+    <div>
+        <label asp-for="Price"></label>
+        <input asp-for="Price" />
+    </div>
+
+    <div>
+        <label asp-for="Quantity"></label>
+        <input asp-for="Quantity" />
+    </div>
+
+    <div>
+        <label asp-for="CategoryId">Category</label>
+        <select asp-for="CategoryId" asp-items="(SelectList)ViewBag.Categories"></select>
+    </div>
+
+    <div>
+        <label asp-for="SupplierId">Supplier</label>
+        <select asp-for="SupplierId" asp-items="(SelectList)ViewBag.Suppliers"></select>
+    </div>
+
+    <button type="submit">Save</button>
+    <a asp-action="Index">Back to List</a>
+
+</form>

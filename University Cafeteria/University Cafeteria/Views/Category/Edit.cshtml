@@ -1,0 +1,19 @@
+@model Category
+
+
+
+<form asp-action="Edit" method="post">
+
+    <input type="hidden" asp-for="Id" />
+
+    <label for="Name">Name:</label>
+    <input type="text" value="@Model.Name" name="Name" />
+
+    <br />
+
+    <label>Description:</label>
+    <input type="text" value="@Model.Description" name="Description" />
+
+    <button type="submit">Save</button>
+
+</form>

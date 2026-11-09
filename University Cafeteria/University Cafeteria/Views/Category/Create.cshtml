@@ -1,12 +1,12 @@
-﻿@model Category
+@model Category
 
 
 
 @{
-    ViewBag.Title = "Create Product";
+    ViewBag.Title = "Create Category";
 }
 
-<h2>Create Product</h2>
+<h2>Create Category</h2>
 
 @using (Html.BeginForm("Create", "Category", FormMethod.Post))
 {
@@ -25,6 +25,3 @@
     <input type="submit" value="Save" class="btn btn-success" />
     @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
 }
-
-
-
